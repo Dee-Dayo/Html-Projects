@@ -19,9 +19,38 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 90px;
+    background-color: #f5f7fa;
+    padding-bottom: 90px;
 }
 .hero-section > div >h2{
     color: #4d4d4d;
     font-size: 40px;
     font-weight: bolder;
+}
+.client-numbers{
+    color: #4d4d4d;
+    padding-top: 50px;
+    text-align: center;
+}
+.client-logo{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 120px;
+}
+.icons-space{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 250px;
+    padding-top: 30px;
+}
+.memberships{
+    display: flex;
+    color: #4d4d4d;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding-top: 30px;
+
 }
