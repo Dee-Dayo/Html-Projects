@@ -1,6 +1,7 @@
 .nav{
     display: flex;
     justify-content: space-evenly;
+    background: #f5f7fa;
 }
 .mid-section{
     display: flex;
@@ -82,4 +83,59 @@
 .statistics-numbers{
     display: flex;
     gap: 120px;
+}
+.third-hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    color: #4d4d4d;
+    padding: 80px 100px;
+    align-items: center;
+}
+.third-hero-section > div > h2{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+}
+.tesla{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f7fa;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.image-containers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+    /*align-items: flex-start;*/
+}
+.image-box{
+    position: relative;
+}
+.overlay-text{
+    background-color: #f5f7fa;
+    position: absolute;
+    top: 190px;
+    right: 40px;
+    left: 40px;
+    bottom: -55px;
+    border-radius: 20px;
+    box-shadow: 0 10px #e6ecf2;
+}
+.end-of-page{
+    justify-content: center;
+    text-align: center;
+    background: #f5f7fa;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    padding-bottom: 40px;
+    background: #263238;
+    justify-content: space-evenly;
 }
